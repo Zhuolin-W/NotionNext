@@ -59,12 +59,12 @@ const BLOG = {
 
   // 评论互动 可同时开启多个支持 GISCUS CUSDIS UTTERRANCES GITALK
 
-    COMMENT_CUSDIS_APP_ID: process.env.NEXT_PUBLIC_COMMENT_CUSDIS_APP_ID || '3878a1c6-87f2-4d92-a458-81cd1acddbc6', // data-app-id 36位 see https://cusdis.com/
+  COMMENT_CUSDIS_APP_ID: process.env.NEXT_PUBLIC_COMMENT_CUSDIS_APP_ID || '3878a1c6-87f2-4d92-a458-81cd1acddbc6', // data-app-id 36位 see https://cusdis.com/
   COMMENT_CUSDIS_HOST:
-    process.env.NEXT_PUBLIC_COMMENT_CUSDIS_HOST || 'https://cusdis.com', // data-host, change this if you're using self-hosted version
+  process.env.NEXT_PUBLIC_COMMENT_CUSDIS_HOST || 'https://cusdis.com', // data-host, change this if you're using self-hosted version
   COMMENT_CUSDIS_SCRIPT_SRC:
-    process.env.NEXT_PUBLIC_COMMENT_CUSDIS_SCRIPT_SRC ||
-    'https://cusdis.com/js/cusdis.es.js', // change this if you're using self-hosted version
+  process.env.NEXT_PUBLIC_COMMENT_CUSDIS_SCRIPT_SRC ||
+  'https://cusdis.com/js/cusdis.es.js', // change this if you're using self-hosted version
   
   
   // giscus @see https://giscus.app/
